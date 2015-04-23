@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="{{language}}">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+    <title>{{title}}</title>
+    <meta charset="utf-8">
+    <meta name="description" content="{{description}}">
+    <meta name="keywords" content="{{keywords}}">
+    <link class="hreflang-directive" refresh-when="title">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 10]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <h1><a href="/">LOCALHOST</a></h1>
+    <div>
+        <ul>
+            <li><a href="/es/">Home</a>
+            </li>
+            <li><a href="/es/services">services</a>
+            </li>
+            <li><a href="/es/contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li><a href="/en/">Home</a>
+            </li>
+            <li><a href="/en/services">services</a>
+            </li>
+            <li><a href="/en/contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div ui-view></div>
+
+    <script src="/src/vendor/require.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/src/vendor/modernizr.js" type="text/javascript" charset="utf-8"></script>
+
+    <!--build tag-->
+    <!--do not remove the build script tag. This is automatically replace when the script is built-->
+    <script src="/src/config.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/src/analytics.js" type="text/javascript" charset="utf-8"></script>
+    <!--end build tag-->
+
+    <script src="/src/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
