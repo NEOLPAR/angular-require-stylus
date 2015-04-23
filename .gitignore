@@ -1,0 +1,7 @@
+.idea
+source/.grunt
+source/.sass-cache
+source/.tmp
+source/node_modules
+source/app/bower_components
+httpdocs
